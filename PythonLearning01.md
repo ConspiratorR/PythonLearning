@@ -188,7 +188,7 @@ new_str_1 = "我是%s,今年%d岁了" % (name, age) # python2
 new_str_2 = "我是{},今年{}岁了".format(name, age)
 new_str_3 = "我是{name},今年{age}岁了".format(name = 'Python2', age = '23')
 new_str_4 = "我是{name},今年{age}岁了".format(name = 'Python2', age = 23)
-new_str_5 = f"我是{name1},今年{age1}岁了" # python3.6
+new_str_5 = f"我是{name1},今年{age1}岁了" # python3.6 后面三种比较常用
 
 print(new_str)
 print(new_str_1)
